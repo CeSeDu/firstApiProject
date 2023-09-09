@@ -1,5 +1,5 @@
 async function Api() {
-    const url = 'https://restcountries.com/v3/all';
+    const url = 'https://restcountries.com/v2/all';
     try {
         const response = await fetch(url);
         if (!response.ok) {
