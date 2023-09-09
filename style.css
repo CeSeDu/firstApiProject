@@ -1,0 +1,26 @@
+.general__card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    gap: 50px;
+ 
+}
+
+
+.card {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid red;
+    max-width: max-content;
+    padding: 40px;
+}
+
+.country__flag {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 100%;
+}
+
